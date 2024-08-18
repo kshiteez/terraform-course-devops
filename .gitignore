@@ -1,0 +1,7 @@
+#terraform related files we want git to ignore,
+# so that we can avoid pushing these sensitive files to github repository
+
+.terraform
+.terraform*
+terraform.tfstate
+terraform.tfstate.backup
